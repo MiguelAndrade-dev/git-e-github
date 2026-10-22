@@ -1,11 +1,34 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treinando git e github</title>
+    <title>Pesquisador de URLs</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <main class="container">
+        <h1>Pesquisador de URLs</h1>
+
+        <p>Digite o nome do site para verificar sua URL.</p>
+
+        <form>
+            <label for="url">Nome do app ou site:</label>
+
+            <input
+                type="text"
+                id="url"
+                placeholder="Ex: github"
+            >
+
+            <button type="submit">Pesquisar URL</button>
+        </form>
+
+        <div id="resultado"></div>
+    </main>
+
 </body>
 </html>
